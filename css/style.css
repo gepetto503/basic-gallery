@@ -1,0 +1,57 @@
+/* For testing only */
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border:1px dashed #000;
+}
+
+/* End for testing */
+
+/*mobile*/
+
+body {
+  background: lightpink;
+  /*height: 100vh;
+  width: 100vw;*/
+  border: 3px solid purple;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+}
+
+.image-wrapper {
+  width: 100vw;
+  height: 80vh;
+}
+
+.image {
+  width: 80%;
+  margin: auto;
+  height: 33.33%;
+}
+
+
+/* media queries */
+
+/*tablet*/
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+
+}
+
+/*laptop*/
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: lightyellow;
+  }
+}
