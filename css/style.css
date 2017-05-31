@@ -28,13 +28,12 @@ body {
 }
 
 .image-wrapper {
-  width: 100vw;
+  width: 90vw;
+  margin: auto;
   height: 80vh;
 }
 
 .image {
-  width: 80%;
-  margin: auto;
   height: 33.33%;
 }
 
@@ -45,6 +44,11 @@ body {
 @media screen and (min-width: 480px) {
   body {
     background-color: lightgreen;
+  }
+
+  .image {
+    width: 50%;
+    float: left;
   }
 
 }
