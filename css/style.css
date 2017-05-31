@@ -17,8 +17,6 @@
 
 body {
   background: lightpink;
-  /*height: 100vh;
-  width: 100vw;*/
   border: 3px solid purple;
 }
 
@@ -57,5 +55,10 @@ body {
 @media screen and (min-width: 1025px) {
   body {
     background-color: lightyellow;
+  }
+
+  .image {
+    width: 33%;
+    margin: auto; /*i expect this to make the three images center in the image-wrapper but it doesnt.  why?*/
   }
 }
